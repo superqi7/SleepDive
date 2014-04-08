@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1873ED38-1EA8-465B-B168-0981E63F798F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SleepDive</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>523ED36D-EB61-42E4-AADE-70D355A7B9C5</key>
+		<string>https://github.com/superqi7/SleepDive.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SleepDive.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>523ED36D-EB61-42E4-AADE-70D355A7B9C5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/superqi7/SleepDive.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>523ED36D-EB61-42E4-AADE-70D355A7B9C5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>523ED36D-EB61-42E4-AADE-70D355A7B9C5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SleepDive</string>
+		</dict>
+	</array>
+</dict>
+</plist>

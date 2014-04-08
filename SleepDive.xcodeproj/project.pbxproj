@@ -24,6 +24,13 @@
 		2A377ACD18D887C500D6FE6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A377AA818D887C500D6FE6C /* UIKit.framework */; };
 		2A377AD518D887C500D6FE6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A377AD318D887C500D6FE6C /* InfoPlist.strings */; };
 		2A377AD718D887C500D6FE6C /* SleepDiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A377AD618D887C500D6FE6C /* SleepDiveTests.m */; };
+		2AB14FAD18F3CF810021378C /* SKAction+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB14FA418F3CF810021378C /* SKAction+SKTExtras.m */; };
+		2AB14FAE18F3CF810021378C /* SKEmitterNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB14FA618F3CF810021378C /* SKEmitterNode+SKTExtras.m */; };
+		2AB14FAF18F3CF810021378C /* SKNode+SKTExtras.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB14FA818F3CF810021378C /* SKNode+SKTExtras.m */; };
+		2AB14FB018F3CF810021378C /* SKTAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB14FAA18F3CF810021378C /* SKTAudio.m */; };
+		2AB14FB118F3CF810021378C /* SKTUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2AB14FAC18F3CF810021378C /* SKTUtils.mm */; };
+		2AB14FB418F3CFAD0021378C /* bgmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AB14FB318F3CFAD0021378C /* bgmusic.mp3 */; };
+		2AB14FB618F3DB550021378C /* level1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2AB14FB518F3DB550021378C /* level1.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +67,18 @@
 		2A377AD218D887C500D6FE6C /* SleepDiveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SleepDiveTests-Info.plist"; sourceTree = "<group>"; };
 		2A377AD418D887C500D6FE6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A377AD618D887C500D6FE6C /* SleepDiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepDiveTests.m; sourceTree = "<group>"; };
+		2AB14FA318F3CF810021378C /* SKAction+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKAction+SKTExtras.h"; sourceTree = "<group>"; };
+		2AB14FA418F3CF810021378C /* SKAction+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKAction+SKTExtras.m"; sourceTree = "<group>"; };
+		2AB14FA518F3CF810021378C /* SKEmitterNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+SKTExtras.h"; sourceTree = "<group>"; };
+		2AB14FA618F3CF810021378C /* SKEmitterNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+SKTExtras.m"; sourceTree = "<group>"; };
+		2AB14FA718F3CF810021378C /* SKNode+SKTExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKNode+SKTExtras.h"; sourceTree = "<group>"; };
+		2AB14FA818F3CF810021378C /* SKNode+SKTExtras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKNode+SKTExtras.m"; sourceTree = "<group>"; };
+		2AB14FA918F3CF810021378C /* SKTAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTAudio.h; sourceTree = "<group>"; };
+		2AB14FAA18F3CF810021378C /* SKTAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTAudio.m; sourceTree = "<group>"; };
+		2AB14FAB18F3CF810021378C /* SKTUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTUtils.h; sourceTree = "<group>"; };
+		2AB14FAC18F3CF810021378C /* SKTUtils.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SKTUtils.mm; sourceTree = "<group>"; };
+		2AB14FB318F3CFAD0021378C /* bgmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgmusic.mp3; sourceTree = "<group>"; };
+		2AB14FB518F3DB550021378C /* level1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = level1.plist; path = ../../illustration/levels/level1.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +140,7 @@
 		2A377AAC18D887C500D6FE6C /* SleepDive */ = {
 			isa = PBXGroup;
 			children = (
+				2AB14FA218F3CF810021378C /* SKTUtils */,
 				2A377AB518D887C500D6FE6C /* AppDelegate.h */,
 				2A377AB618D887C500D6FE6C /* AppDelegate.m */,
 				2A377AB818D887C500D6FE6C /* Main.storyboard */,
@@ -130,6 +150,7 @@
 				2A377ABF18D887C500D6FE6C /* MyScene.m */,
 				2A377AC118D887C500D6FE6C /* Spaceship.png */,
 				2A377AC318D887C500D6FE6C /* Images.xcassets */,
+				2AB14FB218F3CFAD0021378C /* sounds */,
 				2A377AAD18D887C500D6FE6C /* Supporting Files */,
 			);
 			path = SleepDive;
@@ -140,6 +161,7 @@
 			children = (
 				2A377AAE18D887C500D6FE6C /* SleepDive-Info.plist */,
 				2A377AAF18D887C500D6FE6C /* InfoPlist.strings */,
+				2AB14FB518F3DB550021378C /* level1.plist */,
 				2A377AB218D887C500D6FE6C /* main.m */,
 				2A377AB418D887C500D6FE6C /* SleepDive-Prefix.pch */,
 			);
@@ -162,6 +184,31 @@
 				2A377AD318D887C500D6FE6C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AB14FA218F3CF810021378C /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				2AB14FA318F3CF810021378C /* SKAction+SKTExtras.h */,
+				2AB14FA418F3CF810021378C /* SKAction+SKTExtras.m */,
+				2AB14FA518F3CF810021378C /* SKEmitterNode+SKTExtras.h */,
+				2AB14FA618F3CF810021378C /* SKEmitterNode+SKTExtras.m */,
+				2AB14FA718F3CF810021378C /* SKNode+SKTExtras.h */,
+				2AB14FA818F3CF810021378C /* SKNode+SKTExtras.m */,
+				2AB14FA918F3CF810021378C /* SKTAudio.h */,
+				2AB14FAA18F3CF810021378C /* SKTAudio.m */,
+				2AB14FAB18F3CF810021378C /* SKTUtils.h */,
+				2AB14FAC18F3CF810021378C /* SKTUtils.mm */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
+		2AB14FB218F3CFAD0021378C /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				2AB14FB318F3CFAD0021378C /* bgmusic.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +287,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB14FB418F3CFAD0021378C /* bgmusic.mp3 in Resources */,
 				2A377AB118D887C500D6FE6C /* InfoPlist.strings in Resources */,
 				2A377AC418D887C500D6FE6C /* Images.xcassets in Resources */,
+				2AB14FB618F3DB550021378C /* level1.plist in Resources */,
 				2A377AC218D887C500D6FE6C /* Spaceship.png in Resources */,
 				2A377ABA18D887C500D6FE6C /* Main.storyboard in Resources */,
 			);
@@ -263,8 +312,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A377AC018D887C500D6FE6C /* MyScene.m in Sources */,
+				2AB14FB018F3CF810021378C /* SKTAudio.m in Sources */,
 				2A377ABD18D887C500D6FE6C /* ViewController.m in Sources */,
+				2AB14FAE18F3CF810021378C /* SKEmitterNode+SKTExtras.m in Sources */,
+				2AB14FB118F3CF810021378C /* SKTUtils.mm in Sources */,
+				2AB14FAD18F3CF810021378C /* SKAction+SKTExtras.m in Sources */,
 				2A377AB718D887C500D6FE6C /* AppDelegate.m in Sources */,
+				2AB14FAF18F3CF810021378C /* SKNode+SKTExtras.m in Sources */,
 				2A377AB318D887C500D6FE6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,6 +526,7 @@
 				2A377ADC18D887C500D6FE6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A377ADD18D887C500D6FE6C /* Build configuration list for PBXNativeTarget "SleepDiveTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +535,7 @@
 				2A377ADF18D887C500D6FE6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
